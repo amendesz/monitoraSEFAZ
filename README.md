@@ -1,6 +1,6 @@
-# Monitoramento de Status das Bolinhas
+# Monitoramento de Status das Bolinhas SEFAZ
 
-Este é um script Python que monitora o status das bolinhas em um site específico e envia um GET/heartbeat para um serviço externo caso todas as bolinhas estejam verdes.
+Este é um script Python que monitora o status das bolinhas de status do site da SEFAZ e envia um GET/heartbeat para um serviço externo caso todas as bolinhas estejam verdes.
 
 ## Configuração
 
