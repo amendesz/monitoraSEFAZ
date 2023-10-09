@@ -17,7 +17,7 @@ Antes de usar o script, você precisará configurar algumas variáveis de ambien
 
 O log do script está configurado para ser registrado em um arquivo chamado `status_bolinhas.log`. Ele incluirá informações relevantes, como timestamps e níveis de log.
 
-### URL do Site
+## URL do Site
 
 Você precisa definir a URL do site que contém as bolinhas a serem monitoradas. Neste código, a URL é definida como:
 
@@ -35,7 +35,7 @@ O script faz o seguinte:
 
 Realiza uma solicitação GET à URL especificada.
 1.Analisa o conteúdo da página usando a biblioteca BeautifulSoup para encontrar as imagens das bolinhas.
-2Verifica o status de cada bolinha com base no nome do arquivo da imagem.
+2.Verifica o status de cada bolinha com base no nome do arquivo da imagem.
 3.Se pelo menos uma bolinha estiver amarela ou vermelha, o script indica que o serviço está com problemas.
 4.Se todas as bolinhas estiverem verdes, o script envia um GET/heartbeat para a URL especificada e registra o sucesso ou qualquer erro.
 
