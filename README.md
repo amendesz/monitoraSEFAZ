@@ -31,6 +31,7 @@ Uma URL específica é usada para enviar o GET/heartbeat para um serviço extern
 ```python
 get_url = "https://uptime.betterstack.com/api/v1/heartbeat/XXXXXXXXXX"
 ````
+
 ### Funcionamento
 O script faz o seguinte:
 
