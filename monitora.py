@@ -33,7 +33,7 @@ def verificar_status_e_enviar_get():
             status[src] = cor
 
         # Verifica se há bolinhas amarelas ou vermelhas
-        if any("bola_amarela_P.png" in cor for cor in status.values()) or any("bola_vermelha_P.png" in cor for cor in status.values()):
+        if any("bola_amarela_P.png" in cor for cor in status.values()) or any("bola_vermelho_P.png" in cor for cor in status.values()):
             print("Pelo menos uma bolinha está amarela ou vermelha. O serviço está com problemas.")
         else:
             print("Todas as bolinhas estão verdes. O serviço está OK.")
