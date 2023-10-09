@@ -45,3 +45,7 @@ O script faz o seguinte:
 O script entra em um loop principal que verifica o status das bolinhas e envia o GET/heartbeat em intervalos regulares (a cada 10 segundos). Você pode interromper a execução do script a qualquer momento pressionando Ctrl + C.
 
 Lembre-se de que este é um exemplo simples e pode ser necessário ajustar o código de acordo com suas necessidades específicas. Certifique-se também de que as bibliotecas necessárias estejam instaladas antes de executar o script.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE) - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
